@@ -1,0 +1,31 @@
+{
+  "name": "backtheweb/laravel-page",
+  "description": "",
+  "keywords": [],
+  "homepage": "",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jordi Touza Bonnin",
+      "email": "jordi.touza@backtheweb.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "illuminate/config": "~5.5",
+    "illuminate/support": "~5.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Backtheweb\\Page\\": "src/"
+    },
+
+    "files" : [
+      "src/helpers.php"
+    ]
+  },
+  "minimum-stability": "dev"
+}
